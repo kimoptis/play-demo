@@ -11,3 +11,7 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+enablePlugins(DebianPlugin)
+maintainer :="kim verstraelen <kim.verstraelen@optis.be>"
+packageSummary := "my package"
+packageDescription := "Package"
